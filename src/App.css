@@ -6,19 +6,12 @@
   text-align:center;
 }
 
-#rcorners2 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  padding: 20px; 
-  width: 200px;
-  height: 150px;  
-  text-align:center;
-}
+
 
 /** background-image: url('https://i.imgur.com/cQWyGiN.jpeg');*/
 body {
  
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/slider-2.jpg');
+  background-image: url('https://i.imgur.com/gtOdQWu.jpeg');
   background-position: center;
   background-origin: content-box;
   background-repeat: no-repeat;
@@ -32,6 +25,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	margin: -20px 0 50px;
+	
 
 }
 
@@ -73,8 +67,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid #17b6a0;
+	background-color: #e7c905;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -88,17 +82,12 @@ button:active {
 	transform: scale(0.95);
 }
 
-button:focus {
-	outline: none;
-}
 
-button.ghost {
-	background-color: transparent;
-	border-color: #FFFFFF;
-}
+
 
 form {
-	background-color: #FFFFFF;
+	
+	background-color: rgba(255,255,255,0.5);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -106,10 +95,12 @@ form {
 	padding: 0 50px;
 	height: 100%;
 	text-align: center;
+	 
 }
 
 input {
 	background-color: #eee;
+	
 	border: none;
 	padding: 12px 15px;
 	margin: 8px 0;
@@ -117,7 +108,8 @@ input {
 }
 
 .container {
-	background-color: #fff;
+
+	background-color: rgba(255,255,255,0.5);
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
@@ -126,33 +118,7 @@ input {
 	width: 500px;
 	max-width: 100%;
 	min-height: 700px;
+	
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.social-container {
-	margin: 20px 0;
-}
-
-.social-container a {
-	border: 1px solid #DDDDDD;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
-}
 
