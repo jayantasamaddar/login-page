@@ -1,9 +1,41 @@
 import './App.css';
 import './index.js'
-import socialButton from './components/socialButtons';
-import inputboxLogin from './components/inputboxLogin';
-import logoAndTitle from './components/logoAndTitle';
-import loginButtons from './components/loginButtons';
+
+import ChangeColor from './components/ChangeColor';
+import SocialButtons from './components/SocialButtons';
+import InputboxLogin from './components/InputboxLogin';
+import LogoAndTitle from './components/LogoAndTitle';
+import LoginButtons from './components/LoginButtons';
+import React,{Component, useState} from 'react';
+import { toHaveFormValues } from '@testing-library/jest-dom/dist/matchers';
+
+//import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
+//import successPage from './successPage';
+
+
+class App extends Component{
+	render(){
+
+		return(
+		<div class="containerr">
+			
+			<div class="container" id="container">
+				<div class="form-container sign-in-container">
+					<form action="#" >
+					<LogoAndTitle/>
+					<InputboxLogin/>
+					<LoginButtons/>
+					<SocialButtons/>
+					</form>
+				</div>
+			</div>
+		</div>
+		)
+	}
+}
+
+
+/** 
 
 function App() {
   return (
@@ -14,10 +46,11 @@ function App() {
 	
 	<div class="form-container sign-in-container">
 		<form action="#">
-
+			<div>
 			<logoAndTitle/>
-		<img src="https://i.imgur.com/co3jxYH.png" alt="Trulli" width="270" height="270"></img>
-			
+			</div>
+			<img src="https://i.imgur.com/co3jxYH.png" alt="Trulli" width="270" height="270"></img>
+			<h1></h1>
 			<h1>Welcome To Sky Source</h1>
 			
 			<h2>Log in</h2>
@@ -46,8 +79,8 @@ function App() {
 		
 		
 		
-		</form>
-	</div>
+</form>
+</div>
 
 </div>
 
@@ -64,9 +97,9 @@ function App() {
  
 }
 
+*/
 
 
-//colorChange();
 
 
 export default App;
