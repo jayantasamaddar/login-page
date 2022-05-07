@@ -1,7 +1,7 @@
 function loginButtons(){
 
     return (  <div>
-	<a href="#">Forgot your password or username?</a>
+	<a href="#">Forgot your password or email ?</a>
 			<button id="btn">Sign In</button>
 
     </div>)
