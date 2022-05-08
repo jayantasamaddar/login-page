@@ -1,17 +1,14 @@
 import './App.css';
 import './index.js';
-import CallForm from './components/CallForm';
-import React, { Component, useState } from 'react';
-import { toHaveFormValues } from '@testing-library/jest-dom/dist/matchers';
-
-//import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
-//import successPage from './successPage';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Component } from 'react';
+import { LoginPage, Dashboard } from './pages';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <CallForm />
+        <LoginPage />
       </div>
     );
   }
