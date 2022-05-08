@@ -6,11 +6,7 @@
   text-align:center;
 }
 
-
-
-/** background-image: url('https://i.imgur.com/cQWyGiN.jpeg');*/
 body {
- 
   background-image: url('https://i.imgur.com/gtOdQWu.jpeg');
   background-position: center;
   background-origin: content-box;
@@ -19,14 +15,12 @@ body {
   min-height:100vh;
   font-family: 'Noto Sans', sans-serif;
   display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
-	height: 100vh;
-	margin: -20px 0 50px;
-	
-
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
@@ -34,8 +28,6 @@ body {
 * {
 	box-sizing: border-box;
 }
-
-
 
 h1 {
 	font-weight: bold;
@@ -67,7 +59,6 @@ a {
 
 button {
 	border-radius: 20px;
-	
 	background-color: #39b6b9;
 	color: rgb(255, 255, 255);
 	font-size: 15px;
@@ -82,11 +73,7 @@ button:active {
 	transform: scale(0.95);
 }
 
-
-
-
 form {
-	
 	background-color: rgba(255,255,255,0.5);
 	display: flex;
 	align-items: center;
@@ -95,12 +82,10 @@ form {
 	padding: 0 50px;
 	height: 100%;
 	text-align: center;
-	padding-top: 70px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-	
-	 
+	padding-top: 60px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px; 
 }
 
 input {
@@ -112,7 +97,6 @@ input {
 }
 
 .container {
-	
 	background-color: rgba(255,255,255,0.5);
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
@@ -122,12 +106,7 @@ input {
 	width: 600px;
 	max-width: 100%;
 	min-height: 700px;
-	
 }
-
-
-/**-------------------------------- */
-
 
 .entry-social {margin-bottom: 20px;
 	color: rgb(126, 126, 126);
@@ -154,7 +133,6 @@ input {
 		transition:background-color .3s;    }
 	
 	.entry-social .fb a {padding: 7px 10px 7px 26px;
-		
 		background: #3B5999 url('https://3.bp.blogspot.com/-yqD2363XuAo/UeDk98twSlI/AAAAAAAAArg/kXIzFBWmczM/s1600/fb14.png') no-repeat 10px center;}
 	
 	.entry-social .gplus a {padding: 7px 10px 7px 32px;background: 
@@ -163,8 +141,6 @@ input {
 	.entry-social .linkedin a {padding: 7px 10px 7px 32px;
 		background: #136F9B url('https://4.bp.blogspot.com/-yuEMxhpIXPc/UeDltjBGR1I/AAAAAAAAAr4/kgidavlGbY8/s1600/linkedin14.png') no-repeat 10px center;}
 	
-	
 	.entry-social .fb a:hover {background-color: rgb(50, 75, 129);}
-	
 	.entry-social .gplus a:hover {background-color: rgb(191, 52, 40);}
 	.entry-social .linkedin a:hover {background-color: rgb(15, 89, 125);}

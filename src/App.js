@@ -1,36 +1,17 @@
 import './App.css';
 import './index.js'
 
-import ChangeColor from './components/ChangeColor';
-import SocialButtons from './components/SocialButtons';
-import InputboxLogin from './components/InputboxLogin';
-import LogoAndTitle from './components/LogoAndTitle';
-import LoginButtons from './components/LoginButtons';
-import React,{Component, useState} from 'react';
+
+import React, { Component, useState } from 'react';
 import { toHaveFormValues } from '@testing-library/jest-dom/dist/matchers';
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import LoginPage from './LoginPage';
 
-//import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
-//import successPage from './successPage';
 
 
-class App extends Component{
-	render(){
-
-		return(
-		<div class="containerr">
-			
-			<div class="container" id="container">
-				<div class="form-container sign-in-container">
-					<form action="#" >
-					<LogoAndTitle/>
-					<InputboxLogin/>
-					<LoginButtons/>
-					<SocialButtons/>
-					</form>
-				</div>
-			</div>
-		</div>
-		)
+class App extends Component {
+	render() {
+		return <LoginPage/>
 	}
 }
 
@@ -40,7 +21,7 @@ class App extends Component{
 function App() {
   return (
 
-    <div class="containerr">
+	<div class="containerr">
 
 	<div class="container" id="container">
 	
@@ -62,7 +43,7 @@ function App() {
 			<button id="btn">Sign In</button>
 			<br></br>
 			<socialButton/>
- 			Or Sign in as
+				Or Sign in as
 		
 <div class="entry-social">
 <div class="fb">

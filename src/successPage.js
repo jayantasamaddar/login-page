@@ -1,13 +1,13 @@
 import React from "react";
 //import {useHistory} from 'react-router-dom';
 
-function successPage(){
+function SuccessPage(){
 
     //let history = useHistory();
     return(
+        <div>
     <h1>You made it </h1>
+    </div>
     );
 }
-
-
-export default successPage;
+export default SuccessPage;
